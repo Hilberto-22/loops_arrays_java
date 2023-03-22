@@ -22,10 +22,11 @@ public class Ex1_NomeIdade {
 
             System.out.print("Idade: ");
             idade = scanner.nextInt();
+            if(idade < 0) break;
         }
 
         System.out.println("Paramos aqui...");
-
+        scanner.close();
 
     }
 }
